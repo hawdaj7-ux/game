@@ -658,23 +658,20 @@ body.normal .map-container svg path:hover {
 
 @keyframes mapPulse {
     0% {
-        transform: scale(1);
         filter: drop-shadow(0 0 2px rgba(255, 215, 0, 0.5));
     }
 
     50% {
-        transform: scale(1.15);
-        filter: drop-shadow(0 0 10px rgba(255, 215, 0, 0.9));
+        filter: drop-shadow(0 0 12px rgba(255, 215, 0, 0.9));
     }
 
     100% {
-        transform: scale(1);
         filter: drop-shadow(0 0 2px rgba(255, 215, 0, 0.5));
     }
 }
 
 .map-icon {
-    animation: mapPulse 2s infinite ease-in-out;
+    animation: mapPulse 3s infinite ease-in-out;
     transform-origin: center;
 }
 
